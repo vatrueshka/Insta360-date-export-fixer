@@ -31,8 +31,14 @@ brew install exiftool
 
 ## Usage
 
-1.  Keep your exported Insta360 files in a single folder.
-2.  Run the script by providing the path to that folder:
+### Option 1: Double-Click (macOS)
+1.  Copy both `insta360_date_fixer.py` and `run_script_insta360_date_fixer.command` into the folder containing your video files.
+2.  Double-click `run_script_insta360_date_fixer.command`.
+3.  The script will automatically process all files in that folder.
+
+### Option 2: Terminal (Any OS)
+1.  Open your terminal/command prompt.
+2.  Run the script providing the path to your video folder:
 
 ```bash
 python insta360_date_fixer.py /path/to/your/videos

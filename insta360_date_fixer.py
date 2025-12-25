@@ -3,7 +3,6 @@
 Insta360 Date Fixer
 Restores original creation dates for video files exported from Insta360 cameras.
 
-Author: Ilia
 Usage: python insta360_date_fixer.py <folder_path>
 """
 
